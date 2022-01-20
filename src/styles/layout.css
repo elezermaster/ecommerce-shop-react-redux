@@ -1,0 +1,62 @@
+
+.header {
+    /* height: 90px; */
+}
+.header .navbar {
+    background-color: #6c807c!important;
+}
+.nav-link , .navbar-brand {
+    color: white !important;
+    margin-right: 5px;
+    font-weight: bold;
+    border: 2px solid #6c807c;
+}
+.nav-link:hover , .navbar-brand:hover {
+    border: 2px solid tomato;
+    color: tomato !important;
+    font-weight: bold;
+    /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.897); */
+    /* black; /* #ff0000;*/
+    /* border: 1px solid tomato; */
+    /* border-radius: 5px; */
+}
+.navlink-icon:hover {
+    color: tomato !important;
+    font-weight: bold;
+}
+.nav-link.active {
+    color: black !important;
+    font-style: bold;
+    font-weight: bold;
+}
+.footer {
+    background-color: #6c807c!important;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.content {
+    padding-top: 80px;
+}
+.badge-cart.badge {
+    background-color: tomato !important;
+
+}
+/* loader */
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
